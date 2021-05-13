@@ -148,3 +148,13 @@ footer {
     }
 
   }
+
+  #bottom {
+      display: flex;
+      justify-content: left;
+      margin-left: 150px;
+  }
+
+  #van {
+      font-weight: bold;
+  }
