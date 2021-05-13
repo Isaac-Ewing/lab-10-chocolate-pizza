@@ -70,12 +70,16 @@ h2 {
     margin-right: 20px;
 }
 
+.gutter-right-icons {
+    height: 25px;
+}
+
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
 }
 
 header img {
-    height: var(--header-height);
+    /* height: var(--header-height); */
 }
 
 p {
