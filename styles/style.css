@@ -46,16 +46,15 @@ section {
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: */
     background-color: var(--color3);
-    height: var(--header-height);
+    /* height: var(--header-height); */
     box-shadow: var(--shadow);
 }
 
 footer {
-    display: flex;
-    justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
@@ -71,7 +70,15 @@ h2 {
 }
 
 .gutter-right-icons {
+    display: flex;
+    justify-content: flex-end;
     height: 25px;
+    /* margin-bottom: 200px; */
+}
+
+.gutter-left-icons {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .main-logo {
@@ -82,9 +89,9 @@ header img {
     /* height: var(--header-height); */
 }
 
-p {
+/* p {
     margin: var(--gutter);
-}
+} */
   
 footer {
     position: fixed;
